@@ -1,4 +1,4 @@
-import { prisma } from "../app.js";
+import { prisma } from "../index.js";
 
 export const createStudent = async (req, res) => {
   try {

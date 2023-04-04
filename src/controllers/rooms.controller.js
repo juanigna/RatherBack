@@ -1,4 +1,4 @@
-import { prisma } from "../app.js";
+import { prisma } from "../index.js";
 
 export const createRoom = async (req, res) => {
   const { roomName } = req.body;
